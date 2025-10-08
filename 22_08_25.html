@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--
+    patterns
+    --------
+    gmail validation
+    ----------------
+    abc@gmail.com
+    . - any one character insisde the keyboard
+    () - grouping
+     password validation
+     -------------------
+     *- 0 or more previous char
+     ?- optional char
+     A any one upper case
+     a- any one lower case
+     !@#$%^&- - any one special char
+     (?=.*[A-Z])(?=.*[a-z]).{8,16}- 
+     ^ - start
+     $ - end
+     [^]- not inside
+     \d - digits 0-9
+     \s - white space ( )
+     \S - non-space
+     \w - word character(only alphabets)
+     \W - special characters
+     \D - non-digits
+     seminars
+     ---------
+     semantic & non- semantic
+     fav icon
+     entities
+     meta tags 
+     picture tags
+     embed
+     -->
+    <form action="./submit.html">
+        <!-- <input type="text" pattern="[a-z.0-9]{6,16}@(gmail|outlook|yahoo)\.(com|in|edu|co|gov|net)" required> -->
+         <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*]).{8,16}">
+    </form>
+</body>
+</html>

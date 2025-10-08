@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+         <h1>TELENGANA STATE ROAD TRANSPORT CORPORATION</h1>
+         <h2>STUDENT BUS PASS APPLICATION UPTO SSC</h2>
+    </center>
+   
+    <form action="./submit.html" method="get" enctype="text/plain">
+        <fieldset>
+            <legend>Education Details</legend>
+            <label for="Firstname">Firstname:</label>
+         <input type="text" name="Firstname" id="Firstname">
+        <br>
+        <br>
+        <label for="Lastname">Lastname:</label>
+        <input type="text" name="Lastname" id="Lastname">
+        <br>
+        <br>
+        <label for="DOB">DOB:</label>
+        <input type="date" name="DOB" id="DOB">
+        <br>
+        <br>
+        <label for="">Gender:</label>
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" value="female">
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="gender" value="male" >
+        <br>
+        <br>
+        <label for="an">Aadhar:</label>
+        <input type="text" id="an" name="Aadhar" maxlength="12" required>
+        <br>
+        <br>
+        <label for="wapp">Whatsapp No:</label>
+        <input type="text" id="wapp" name="Whatsapp No" maxlength="10">
+        <br>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email">
+        <br>
+        <br>
+        <label for="photo">Photo:</label>
+        <input type="file" id="photo" name="Photo">
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Residential Address Details</legend>
+        <label for="address">Applicant's Address:</label>
+        <textarea id="address" name="address" maxlength="20"></textarea>
+        <br><br>
+
+        <label for="district">District:</label>
+        <select id="district" name="district">
+            <option>HYDERABAD</option>
+            <option>RANGAREDDY</option>
+            <option>MEDCHAL</option>
+        </select>
+        <br><br>
+
+        <label for="mandal">Mandal:</label>
+        <select id="mandal" name="mandal">
+            <option>HYDERABAD</option>
+        </select>
+        <br><br>
+
+        <label for="village">Village:</label>
+        <select id="village" name="village">
+            <option>HYDERABAD</option>
+        </select>
+        <br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" maxlength="6">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Pass Type Details</legend>
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option>Hyderabad</option>
+        </select>
+        <br><br>
+
+        <label for="passtype">Pass Type:</label>
+        <select id="passtype" name="passtype">
+            <option>Select</option>
+            <option>General</option>
+            <option>Student</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Mode of Payment & Pass Collection</legend>
+        <label for="payment">Payment Mode:</label>
+        <select id="payment" name="payment">
+            <option>Select Payment Mode</option>
+            <option>Online</option>
+            <option>Offline</option>
+        </select>
+        <br><br>
+
+        <label for="delivery">Pass Delivery Mode:</label>
+        <select id="delivery" name="delivery">
+            <option>Select Delivery Mode</option>
+            <option>Courier</option>
+            <option>Collect at Counter</option>
+        </select>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>

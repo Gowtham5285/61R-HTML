@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+     patterns or regex
+     -attribute in forms
+     - in pattern=""
+     -abc- only abc accept 
+     -123- only accept 123
+     -ABC- omly accept ABC
+     -[abc]- any inside one character
+     -[123]- Any inside one number
+     -[ABC]- any inside one character
+     =[-]- it is true
+     -[a-z]- any character from a to z
+     -[0-9]- starts from 0 to 9 any one character
+     -[A-Z]- from A to Z any one character
+     -[a-z0-9A-Z]- it only accepts one character 
+     -+ - one or meore pre char
+     -{n}- max range -uses- mobile number, Aadhar, Pan card, bank acc no
+       \+91[6-9][0-9]{9}
+       pincode - 5[0-9]{5}
+     -{n,}- starting length and infinite -uses- feedback
+     -{n,m}- start length & ending length- uses- password{8,16}, wifi password
+     task:- aadhar, bank acc validation
+     -->
+     <form action="./submit.html">
+        <!-- <input type="text" pattern="[a-zA-Z0-9]{5}" title="Enter within range"> -->
+        <input type="text" pattern="\+91[6-9][0-9]{9}">
+        <input type="submit">
+     </form>
+</body>
+</html>

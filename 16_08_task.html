@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="./submit.html">
+        <label for="First Name" >First Name:</label>
+        <input type="text" placeholder="Enter First Name" id="First Name" autofocus>
+        <br>
+        <label for="Last Name" >Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" id="Last Name">
+        <br>
+        <label for="Email" >Email:</label>
+        <input type="email" placeholder="Enter Email Address" id="Email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" maxlength="8">
+        <br>
+        <label for="">Gender:</label>
+        <br>
+        <input type="radio" id="Male">
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" id="Female">
+        <label for="Female">Female</label>
+        <br>
+        <input type="radio" id="Other">
+        <label for="Other">Other</label>
+        <br>
+        <label for="Number">Age:</label>
+        <input type="number" id="Number">
+        <br>
+        <label for="">Preferences:</label>
+        <br>
+        <input type="checkbox" id="A1">
+        <label for="A1">Acrylic Painting</label>
+        <br>
+        <input type="checkbox" id="O1">
+        <label for="O1">Oil Painting</label>
+        <br>
+        <input type="checkbox" id="W1">
+        <label for="W1">Water Painting</label>
+        <br>
+        <label for="dropdown">Select Occupation</label>
+        <select name="" id="dropdown">
+            <option value="" disabled selected>Select</option>
+            <option value="">Student</option>
+            <option value="">Teacher</option>
+            <option value="">Working Professional</option>
+        </select>
+        <br>
+        <label for="textarea">Bio</label>
+        <textarea name="" id="textarea" rows="10" cols="40" placeholder="Share few lines about yourself......"></textarea>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

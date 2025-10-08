@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+</head>
+<body >
+    <center>
+        <h1>Application Form</h1>
+    </center>
+    <form>
+        <table align="center" cellpadding="8">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fname"></td>
+                <td>Last Name:</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date" name="dob"></td>
+                <td>Age:</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <select name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+                <td>Email Address:</td>
+                <td><input type="email" placeholder="Enter email address"></td>
+            </tr>
+            <tr>
+                <td>Positions Available:</td>
+                <td colspan="3">
+                    <input type="radio" name="position" value="junior"> Junior Developer
+                    <input type="radio" name="position" value="mid"> Mid-level Developer
+                    <input type="radio" name="position" value="senior"> Senior Developer
+                </td>
+            </tr>
+            <tr>
+                <td>Programming Languages:</td>
+                <td colspan="3">
+                    <input type="checkbox" name="lang" value="java"> Java
+                    <input type="checkbox" name="lang" value="js"> JavaScript
+                    <input type="checkbox" name="lang" value="python"> Python
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="cpassword"></td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
